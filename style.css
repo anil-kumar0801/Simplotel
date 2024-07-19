@@ -162,3 +162,7 @@ pre{
     padding: 0 0.5rem 1rem 2rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.img{
+    height: 62vh;
+    width: 200vw;
+}
