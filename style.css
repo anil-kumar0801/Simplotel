@@ -136,10 +136,23 @@ pre{
     width: 3vw;
 }
 
-@media screen and (max-width:409px) {
+@media screen and (min-width:1024px) {
     html{
         display: flex;
-        min-width: 100%;
+    }
+}
+@media screen and (min-device-width:768px) and (max-device-width:1024px) {
+    html{
+        display: flex;
+        width: 20.8vw;
+        height: 37vh;
+    }
+}
+@media screen and (max-device-width:640px) {
+    html{
+        display: flex;
+        width: 20.8vw;
+        height: 18.5vh;
     }
 }
 .card pre{
